@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "WorkerServicePOC": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
