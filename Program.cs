@@ -20,7 +20,7 @@ namespace WorkerServicePOC
                 .MinimumLevel.Debug()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
                 .Enrich.FromLogContext()
-                .WriteTo.File(@"C:\Users\a.aenzi\Desktop\WorkerServicePOC\Logs\log.txt")
+                .WriteTo.File(@"C:\Users\mohsenTalal\Desktop\WorkerServicePOC\Logs\log.txt")
                 .CreateLogger();
             CreateHostBuilder(args).Build().Run();
             try
